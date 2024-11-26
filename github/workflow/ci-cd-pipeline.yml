@@ -26,8 +26,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t my-node-app .  # Docker imajını oluşturur
+          docker build -t my-node .  # Docker imajını oluşturur
 
       - name: Push Docker image to DockerHub
         run: |
-          docker push my-node-app  # Docker imajını DockerHub'a yükler
+          docker push my-node  # Docker imajını DockerHub'a yükler
