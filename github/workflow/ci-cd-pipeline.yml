@@ -3,10 +3,10 @@ name: CI/CD Pipeline
 on:
   push:
     branches:
-      - main  # main branch'e her push işleminde çalışacak
+      - master  # master branch'e her push işleminde çalışacak
   pull_request:
     branches:
-      - main  # main branch'e pull request gönderildiğinde çalışacak
+      - master  # master branch'e pull request gönderildiğinde çalışacak
 
 jobs:
   build:
